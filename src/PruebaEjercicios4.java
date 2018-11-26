@@ -9,10 +9,10 @@ public class PruebaEjercicios4 {
         // "¿Cuál era el nombre de tu primera mascota?"
         System.out.println(Enmascara.enmascara("Skippy"));
         System.out.println(Enmascara.enmascara("Nanananananananananananananananananananan Batman!"));
-/*
+
         System.out.println(ADN.devuelveComplementario("ATTGC"));
 
         System.out.println(ADN.devuelveComplementario("GTAT"));
-         */
+
     }
 }
