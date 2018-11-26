@@ -68,4 +68,18 @@ public class PaisEuropeo {
         }
         return salida;
     }
+    //------------------------ejercicio 2-----------------------
+    private static final int NUMERO_PAISES = 2;
+    public  double media(String primerPais, String segundoPais){
+
+        int poblaccionPimerPais=Poblacion(primerPais);
+        int poblacionsegundoPais=Poblacion(segundoPais);
+
+        double mediaPoblacion =(poblaccionPimerPais+poblacionsegundoPais)/(double)NUMERO_PAISES;
+
+        return mediaPoblacion;
+    }
+    private int Poblacion(String pais){
+        return getPoblacion();
+    }
 }
